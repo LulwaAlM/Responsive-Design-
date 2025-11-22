@@ -1,4 +1,3 @@
-/* GENERAL STYLES */
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -9,7 +8,6 @@ section {
     margin-bottom: 40px;
 }
 
-/* ================= Hover Button ================= */
 .hover-btn {
     padding: 15px 25px;
     background: #4CAF50;
@@ -24,7 +22,6 @@ section {
     transform: scale(1.1);
 }
 
-/* ================= Lift-Up Card ================= */
 .card {
     background: #eee;
     padding: 20px;
@@ -38,7 +35,6 @@ section {
     box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
-/* ================= Dropdown Menu ================= */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -74,7 +70,6 @@ section {
     display: block;
 }
 
-/* ================= Image Zoom ================= */
 .zoom {
     width: 200px;
     transition: 0.3s;
@@ -84,7 +79,6 @@ section {
     transform: scale(1.2);
 }
 
-/* ================= Modal Popup ================= */
 #modal-toggle { display: none; }
 
 .modal {
@@ -117,7 +111,6 @@ section {
     font-weight: bold;
 }
 
-/* ================= Tabs ================= */
 .tab-label {
     padding: 10px 20px;
     background: #ddd;
@@ -140,7 +133,6 @@ input[name="tab"] { display: none; }
     display: block;
 }
 
-/* ================= Dark Mode Toggle ================= */
 #dark-toggle { display: none; }
 
 .toggle-label {
