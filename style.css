@@ -21,3 +21,14 @@
     .images { grid-template-columns: 1fr 1fr 1fr; }
 }
 
+.hover-btn {
+  padding: 15px;
+  background: #4CAF50;
+  border: none;
+  color: #fff;
+  transition: 0.3s;
+}
+.hover-btn:hover {
+  transform: scale(1.1);
+  background: #3b9a40;
+}
