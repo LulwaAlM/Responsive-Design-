@@ -1,69 +1,78 @@
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Interactive Elements Demo</title>
     <link rel="stylesheet" href="style.css">
-    <title>Responsive Design</title>
 </head>
 <body>
+    <h1>Interactive HTML & CSS Elements</h1>
 
-<h1>Images</h1>
+    <section>
+        <h2>Hover Button</h2>
+        <button class="hover-btn">Hover Me!</button>
+    </section>
 
-<div class="images">
-    <img src="img1.jpg" alt="Photo 1">
-    <img src="img2.jpg" alt="Photo 2">
-    <img src="img3.jpg" alt="Photo 3">
-</div>
+    <section>
+        <h2>Lift-Up Card</h2>
+        <div class="card">
+            <h3>Card Title</h3>
+            <p>This card lifts up when hovered.</p>
+        </div>
+    </section>
 
-    <div class="card">
-  <h2> Card</h2>
-  <p> interactive!</p>
-</div>
+    <section>
+        <h2>Dropdown Menu</h2>
+        <div class="dropdown">
+            <button class="menu-btn">Menu</button>
+            <div class="items">
+                <a href="#">Item 1</a>
+                <a href="#">Item 2</a>
+                <a href="#">Item 3</a>
+            </div>
+        </div>
+    </section>
 
-    <button class="hover">Hover </button>
+    <section>
+        <h2>Image Zoom</h2>
+        <img src="https://via.placeholder.com/200" class="zoom" alt="Sample Image">
+    </section>
 
-    <div class="dropdown">
-  <button class="menu-btn">Menu</button>
-  <div class="items">
-    <a href="#">Item 1</a>
-    <a href="#">Item 2</a>
-    <a href="#">Item 3</a>
-  </div>
-</div>
+    <section>
+        <h2>Modal Popup</h2>
+        <label for="modal-toggle" class="open-btn">Open Modal</label>
+        <input type="checkbox" id="modal-toggle">
+        <div class="modal">
+            <div class="box">
+                <label for="modal-toggle" class="close-btn">X</label>
+                <p>Hello! I am a modal.</p>
+            </div>
+        </div>
+    </section>
 
-    <img src="img1-jpg" class="zoom">
+    <section>
+        <h2>Tabs</h2>
+        <input type="radio" name="tab" id="tab1" checked>
+        <label for="tab1" class="tab-label">Tab 1</label>
+        <input type="radio" name="tab" id="tab2">
+        <label for="tab2" class="tab-label">Tab 2</label>
 
-<label for="modal-toggle" class="open-btn">Open Modal</label>
-<input type="checkbox" id="modal-toggle">
+        <div class="tab-content" id="content1">
+            <p>This is content for Tab 1.</p>
+        </div>
+        <div class="tab-content" id="content2">
+            <p>This is content for Tab 2.</p>
+        </div>
+    </section>
 
-<div class="modal">
-  <div class="box">
-    <label for="modal-toggle" class="close-btn">X</label>
-    <p>Hello! I am a modal.</p>
-  </div>
-</div>
-
-    <input type="radio" name="tab" id="tab1" checked>
-<label for="tab1">Tab 1</label>
-<input type="radio" name="tab" id="tab2">
-<label for="tab2">Tab 2</label>
-
-<div class="tab-content" id="content1">
-  <p>Content for Tab 1</p>
-</div>
-<div class="tab-content" id="content2">
-  <p>Content for Tab 2</p>
-</div>
-
-    <label for="dark-toggle">Dark Mode</label>
-<input type="checkbox" id="dark-toggle">
-
-<div class="content">
-  <p>Hello World!</p>
-</div>
-
+    <section>
+        <h2>Dark Mode Toggle</h2>
+        <label for="dark-toggle" class="toggle-label">Dark Mode</label>
+        <input type="checkbox" id="dark-toggle">
+        <div class="content">
+            <p>This section changes to dark mode when toggled.</p>
+        </div>
+    </section>
 </body>
 </html>
