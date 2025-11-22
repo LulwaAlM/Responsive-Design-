@@ -21,16 +21,17 @@
     .images { grid-template-columns: 1fr 1fr 1fr; }
 }
 
-.hover-btn {
-  padding: 15px;
-  background: #4CAF50;
-  border: none;
-  color: #fff;
-  transition: 0.3s;
+.hover {
+  padding: 10px;         
+  background: #5F9EA0;   
+  color: white;           
+  border: none;           
+
 }
-.hover-btn:hover {
-  transform: scale(1.1);
-  background: #3b9a40;
+
+.hover:hover {
+  background: #008B8B; 
+  transform: scale(3.3); 
 }
 
 .card {
